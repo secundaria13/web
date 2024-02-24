@@ -1,0 +1,84 @@
+h1{
+    color: rgb(153, 199, 25);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    margin: 50px auto;
+}
+img{
+    width: 400px;
+    text-align: center;
+    align-items: center;
+    margin-top: 200px;
+    border-radius: 50px;
+    height: 300px;
+    
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.music-player {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .animado {
+    opacity: 0;
+    transition: all 0.5s;
+}
+.mostrarArriba {
+    animation: mostrarArriba 1s;
+}
+
+.mexico {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+.usa{
+    border-radius: 50px;
+    width: 400px;
+}
+video{
+    width: 100%;
+    
+    text-align: center;
+    align-items: center;
+    
+  
+}
+div{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+
+    h1{
+        
+        font-size: 10px;
+
+    }
+
+    
+
+
+}
